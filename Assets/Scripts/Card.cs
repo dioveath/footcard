@@ -18,6 +18,8 @@ public class Card : MonoBehaviour
     public CardField field;
 
     public Image cardBackImage;
+    public Sprite[] sprites;    
+
 
 
     void Start(){
@@ -34,6 +36,15 @@ public class Card : MonoBehaviour
     public void RemoveFromField(){
         if(field != null){
             field.RemoveCard(this);
+        }
+    }
+
+    public void ChangeMode(CardMode mode){
+        this.mode = mode;
+        if(mode == CardMode.ATTACK){
+            cardBackImage.sprite = sprites[0];
+        } else {
+            cardBackImage.sprite = sprites[1];
         }
     }
 

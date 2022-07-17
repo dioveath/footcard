@@ -266,6 +266,9 @@ MonoBehaviour:
   defenseText: {fileID: 2861102940920406143}
   field: {fileID: 0}
   cardBackImage: {fileID: 0}
+  sprites:
+  - {fileID: 1290663240219261902, guid: 9e3d59f43df9d2549b033d506faf73e5, type: 3}
+  - {fileID: -3005376613232099221, guid: 9e3d59f43df9d2549b033d506faf73e5, type: 3}
 --- !u!114 &6874202966760339544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,9 +296,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ea296085b52ef04681293b3455ff76c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 1290663240219261902, guid: 9e3d59f43df9d2549b033d506faf73e5, type: 3}
-  - {fileID: -3005376613232099221, guid: 9e3d59f43df9d2549b033d506faf73e5, type: 3}
 --- !u!225 &-1506530427550184653
 CanvasGroup:
   m_ObjectHideFlags: 0
